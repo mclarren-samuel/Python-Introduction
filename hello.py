@@ -1,7 +1,5 @@
- # name = "Samuel"
- #print("Hello, my name is " + name)
+name = input("Enter your Name: ")
+course = input("Enter your Course Name: ")
+year = int(input("Enter your Year of Study: "))
 
-
-name = input("My name is:")
-age = int(input("My age is:"))
-print("Hello, my name is " + name + " and I am " + str(age) + " years old.")
+print(f"Hello {name}! You are enrolled in the {course} course and you are in year {year}.")
